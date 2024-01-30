@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(165deg,rgb(43, 43, 138),rgb(79, 23, 68));
+    width: 100%;
+    min-height: 100vh;
+
+}
+.card{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto 20px;
+    padding: 40px 20px 70px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+.card h2{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 30px;
+
+}
+.card h1, img{
+    padding-bottom: 25px;
+}
+.card .task{
+    padding: 10px;
+    border:none;
+    background: rgb(193, 193, 193);
+    border-radius: 15px;
+    margin-right: -25px;
+
+}
+.card button{
+    border: none;
+    background: orange;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.added-tasks{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 25px;
+    margin-top:20px ;
+    text-decoration: none;
+    opacity: 100%;
+}
