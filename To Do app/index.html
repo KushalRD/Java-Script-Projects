@@ -3,27 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>To-Do App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<bod>
-    <div class="card">
-        <h2>To-Do List <img src="/To Do app/images/icon.png"></h2>
-        <div class="input-field">
-            <input type="text" class="task" placeholder="Add your task">
-            <button class="add">Add</button>
-            
-        </div>
-        <div class="added-tasks">
-            <h3 class="task1">This is task1 </h3>
-            <img src="/To Do app/images/unchecked.png" class="check">
-
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="inputBox" placeholder="Enter Your Task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="listContainer">
+                <!-- <li class="checked">Task 1</li> -->
+            </ul>
         </div>
     </div>
-    
-
-
     <script src="script.js"></script>
-
 </body>
 </html>
